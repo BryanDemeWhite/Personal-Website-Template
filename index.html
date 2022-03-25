@@ -1,0 +1,487 @@
+<!doctype html>
+<html>
+  <head>
+    <title>I'm Wizard</title>
+    <link rel="stylesheet" href="style.css?v=1" type="text/css" > <!-- v=# fixes caching problem so u dont have to do ctrl + f5-->
+    <link rel="shortcut icon" href="images/favicon.ico">
+
+<!-- CSS only -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+
+<!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+
+</head>
+
+<script>
+window.onload = function() {
+  orderColumnsRandomly();
+};
+</script>
+
+
+<!-- this makes website appear in discord embeds-->
+<meta property="og:type" content="website">
+<meta property="og:title" content="I'm Wizard" />
+<meta property="og:description" content="Wizard's Vrchat Website" />
+<meta property="og:url" content="http://wizardvr.great-site.net/" />
+<meta property="og:image" content="images/favicon.ico" />
+
+  	<section id="nav-bar">
+  		<!-- NAV BAR CODE FROM https://getbootstrap.com/docs/4.1/components/navbar/--> 
+
+
+  		<nav class="navbar navbar-expand-lg navbar-dark">
+  <a class="navbar-brand" href="#">Home</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+    
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarNav">
+    <ul class="navbar-nav ms-auto">     <!-- <ul class="navbar-nav mr-auto">
+    --> 
+      <li class="nav-item">
+        <a class="nav-link" href="index.html">Home</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="Setup.html">Example Info</a>
+      </li>
+       <li class="nav-item">
+        <a class="nav-link" href="">External Link1</a>
+      </li>
+       <li class="nav-item">
+        <a class="nav-link" href="">External Link2</a>
+      </li>
+
+
+ 
+    </ul>
+ 
+  </div>
+</nav>
+
+<div class="Thumb-Box" style="background: url('url');background-position: 0px 0px;"><a href="images/Me.png">&nbsp;</a></div>
+
+
+
+  	</section>
+
+    <style type="text/css">
+      body { background: rgb(51, 0, 128) !important; } /* Adding !important forces the browser to overwrite the default style applied by Bootstrap */
+   </style>
+   
+
+<div id="hero">
+
+ 
+   
+      <video autoplay loop muted playsinline poster="">
+        <source src="images/fallnew.mp4" type="video/mp4">
+
+        </video>
+      
+
+  </div>
+  <div class="lobbycaption text-center">
+    <h3><b>IN LOBBY</b></h3>
+   <!-- <p>Projects that I have worked on can be found in both my Personal GitHub and my TAMU GitHub.</p> -->
+  </div>
+
+  <div class="container">
+    
+    <div class="row top-buffer " id="xcontainer">
+        <div class="col-lg-4 mb-1 top-buffer">
+          
+          <div id="BWizard" class="Wizardcard" style="width: 400px; height: 410px" onClick="myAudioFunction('A'); aniWizard()">
+            <img class="card-img-top" src="images/Me.png" alt="Card image">
+            <div class="card-body">
+              <h4 class="card-title glowTitle"><b>My Name</b></h4>
+              <p class="card-text glow">Quote</p>
+              <audio
+              src="images/you kind of smell.mp3"
+                
+            ></audio>
+              <!--<a href="#" class="btn btn-primary">See Profile</a> -->
+             <!-- <button id="ASong" onClick="playPause()">
+               
+                Sound Effect
+              </button> -->
+            </div>
+          </div>
+        </div>
+
+
+        <div class="col-lg-4 mb-1 top-buffer">
+          <div id="BAlex" class="Alexcard" style="width: 400px; height: 410px " onClick="myAudioFunction('B'); aniAlex()">
+            <img class="card-img-top" src="images/Alex2.png" alt="Card image">
+            <div class="card-body">
+              <h4 class="card-title"><b>Name</b></h4>
+              <p class="card-text">Quote</p>
+              <!--<a href="#" class="btn btn-primary">See Profile</a> -->
+              <audio
+              src="images/Hank Schrader says sussy baka Original (64 kbps).mp3"
+               
+            ></audio>
+              <!--<button id="BSong" onClick="playPause2()">
+              
+                Sound Effect
+              </button> -->
+            </div>
+          </div>
+        </div>
+
+      
+
+
+
+
+        <div class="col-lg-4 mb-1 top-buffer">
+          <div class="Firetikcard" style="width: 400px; height: 410px">
+            <img class="card-img-top" src="images/firetikME.png" alt="Card image">
+            <div class="card-body">
+              <h4 class="card-title"><b>Name</b></h4>
+              <p class="card-text">Quote</p>
+              <!--<a href="#" class="btn btn-primary">See Profile</a> -->
+             
+            </div>
+          </div>
+        </div>
+
+
+        <div class="col-lg-4 mb-1 top-buffer">
+          <div class="SoulExpressioncard"style="width: 400px; height: 410px" >
+            <img class="card-img-top" src="images/soul.png" alt="Card image">
+            <div class="card-body">
+              <h4 class="card-title"><b>Name</b></h4>
+              <p class="card-text">Quote <3</p>
+              <!--<a href="#" class="btn btn-primary">See Profile</a> -->
+             
+            </div>
+          </div>
+        </div>
+
+
+        <div class="col-lg-4 mb-1 top-buffer">
+          <div id="BBenji" class="BenjiCard" style="width: 400px; height: 410px" onClick="myAudioFunction('C'); aniBenji();">
+            <img class="card-img-top" src="images/Benji2.png" alt="Card image">
+            <div class="card-body">
+              <h4 class="card-title"><b>Name</b></h4>
+              <p class="card-text">Quote</p>
+              
+              <!--<a href="#" class="btn btn-primary">See Profile</a> -->
+             <!-- <button id="CSong" onClick="playPause3()">
+               
+                Sound Effect
+              </button> -->
+             
+            </div>
+          </div>
+        </div>
+
+
+        <div class="col-lg-4 mb-1 top-buffer ">
+          <div id="BHusky" class="HuskyCard" style="width: 400px; height: 410px" >
+            <img class="card-img-top" src="images/husky2.png" alt="Card image">
+            <div class="card-body">
+              <h4 class="card-title"><b>Name</b></h4>
+              <p class="card-text">Quote</p>
+              <!--<a href="#" class="btn btn-primary">See Profile</a> -->
+            
+            
+             
+            </div>
+          </div>
+        </div>
+
+  
+        <div class="col-lg-4 mb-1 top-buffer ">
+          <div class="TyeCard" style="width: 400px; height: 410px" >
+            <img class="card-img-top" src="images/tye.jpg" alt="Card image">
+            <div class="card-body">
+              <h4 class="card-title"><b>Name</b></h4>
+              <p class="card-text">Quote</p>
+              <!--<a href="#" class="btn btn-primary">See Profile</a> -->
+            
+            
+             
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 mb-1 top-buffer ">
+          <div class="AshuriiiCard" style="width: 400px; height: 410px" >
+            <img class="card-img-top" src="images/DarkAsh.png" alt="Card image">
+            <div class="card-body">
+              <h4 class="card-title"><b>Name</b></h4>
+              <p class="card-text">Quote</p>
+              <!--<a href="#" class="btn btn-primary">See Profile</a> -->
+            
+            
+             
+           </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 mb-1 top-buffer ">
+          <div class="DarkCard" style="width: 400px; height: 410px" >
+            <img class="card-img-top" src="images/Dark.jpg" alt="Card image">
+            <div class="card-body">
+              <h4 class="card-title"><b>Name</b></h4>
+              <p class="card-text">Quote
+               
+              </p>
+              <!--<a href="#" class="btn btn-primary">See Profile</a> -->
+            
+            
+             
+           </div>
+          </div>
+        </div>
+
+
+        <div class="col-lg-4 mb-1 top-buffer ">
+          <div class="UzaCard" style="width: 400px; height: 410px" >
+            <img class="card-img-top" src="images/Uza.png" alt="Card image">
+            <div class="card-body">
+              <h4 class="card-title"><b>Name</b></h4>
+              <p class="card-text">Quote</p>
+              <!--<a href="#" class="btn btn-primary">See Profile</a> -->
+            
+            
+             
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 mb-1 top-buffer ">
+          <div class="EmiCard" style="width: 400px; height: 410px" >
+            <img class="card-img-top" src="images/Emi.png" alt="Card image">
+            <div class="card-body">
+              <h4 class="card-title"><b>Name</b></h4>
+              <p class="card-text">Quote</p>
+              <!--<a href="#" class="btn btn-primary">See Profile</a> -->
+            
+            
+             
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 mb-1 top-buffer ">
+          <div class="AsylumCard" style="width: 400px; height: 410px" >
+            <img class="card-img-top" src="images/Asylum.png" alt="Card image">
+            <div class="card-body">
+              <h4 class="card-title"><b>Name</b></h4>
+              <p class="card-text">Quote</p>
+              <!--<a href="#" class="btn btn-primary">See Profile</a> -->
+            
+            
+             
+            </div>
+          </div>
+        </div>
+        <!--poki, shadow-->
+ 
+          
+         
+   
+<script>
+  function aniAlex() {
+ document.getElementById('BAlex').classList.remove('bounce-7');
+  setTimeout(() => {
+    document.getElementById('BAlex').classList.add('bounce-7');
+  }, 0);
+
+}
+
+function aniWizard() {
+ document.getElementById('BWizard').classList.remove('bounce-7');
+  setTimeout(() => {
+    document.getElementById('BWizard').classList.add('bounce-7');
+  }, 0);
+
+}
+
+function aniBenji() {
+ document.getElementById('BBenji').classList.remove('bounce-7');
+  setTimeout(() => {
+    document.getElementById('BBenji').classList.add('bounce-7');
+  }, 0);
+
+}
+</script>
+
+       <!-- use old sound scripts to edit thissss one to be able to pause sound!!!!! TODO also add all 3 sounds and hovers (remove husky, add tye)-->
+<script>
+  var aAudio = new Audio('images/you kind of smell.mp3');
+  var bAudio = new Audio('images/sussybaka.mp3');
+  var cAudio = new Audio('images/That boy got that virus (full original video).mp3');
+  function myAudioFunction(letter) {
+      if(letter == 'A') {
+          aAudio.play();
+      } else if(letter == 'B') {
+          bAudio.play();
+      }
+     else if(letter == 'C') {
+          cAudio.play();
+      }
+  }
+</script>
+
+
+
+<!--------------------------------------------------------->
+    </div>
+</div>
+<!--
+<div id="container">
+  <div class="row">
+    <div class="col-lg-12">
+      <button id="orderRandomly">Order!</button>
+    </div>
+  </div>
+  <br>
+</div>
+--->
+<script>
+/**
+ * Returns a random integer between min and max values (inclusive)
+ */
+ function getRandomInt(min, max) {
+  return Math.floor(Math.random() * (max - min + 1)) + min;
+}
+
+/**
+ * Returns a uniquely generated random integer array, so we can use this as our order.
+ */
+function getRandomSequence(limit) {
+  var arr = [];
+  while (arr.length < limit) {
+    var randomnumber = getRandomInt(0, limit - 1);
+    var found = false;
+    for (var i = 0; i < arr.length; i++) {
+      if (arr[i] == randomnumber) {
+        found = true;
+        break;
+      }
+    }
+    if (!found) arr[arr.length] = randomnumber;
+  }
+  return arr;
+}
+
+/**
+ * Shows randomly ordered columns in a container.
+ */
+function orderColumnsRandomly() {
+  // Get the children of the container
+  var columns = $("#xcontainer").children();
+
+  // Empty the container.
+  $("#xcontainer").html('');
+
+  // Get a random sequence to show the columns
+  var sequence = getRandomSequence(columns.length);
+
+  // Loop through the column array with the given sequence and fill the container.
+  for (var i = 0; i < sequence.length; i++) {
+    $("#xcontainer").append($(columns[sequence[i]]));
+  }
+}
+
+// Bind the button's click event.
+$("#orderRandomly").click(orderColumnsRandomly);
+
+</script>
+
+
+        
+        
+        <script>
+          var aud = document.getElementById("BWizard").children[4];
+          var isPlaying = false;
+          aud.pause();
+        
+          function playPause() {
+            if (isPlaying) {
+              aud.pause();
+            } else {
+              aud.play();
+            }
+            isPlaying = !isPlaying;
+          }
+        </script>
+
+<script>
+  var aud2 = document.getElementById("BAlex").children[5];
+  var isPlaying2 = false;
+  aud2.pause();
+
+  function playPause2() {
+    if (isPlaying2) {
+      aud2.pause();
+    } else {
+      aud2.play();
+    }
+    isPlaying2 = !isPlaying2;
+  }
+</script>
+
+<script>
+  var aud3 = document.getElementById("BBenji").children[6];
+  var isPlaying3 = false;
+  aud3.pause();
+
+  function playPause3() {
+    if (isPlaying3) {
+      aud3.pause();
+    } else {
+      aud3.play();
+    }
+    isPlaying3 = !isPlaying3;
+  }
+</script>
+
+
+       
+<section id="social-media">
+	<div class="container text-center">
+		<p> FIND ME ON SOCIAL MEDIA </p>
+		<div class="social-icons">
+			<a href=""><image src="images/concours-discord-cartes-voeux-fortnite-france-6.png"></a>
+			<a href=""><image src="images/o8smnmp6erp21.jpg"></a>
+			<a href=""><image src="images/Twitter-Bird-Png.png"></a>
+        <a href=""><image src="images/Steam_icon_logo.svg.png"></a>
+          <a href=""><image src="images/YouTube_full-color_icon_(2017).svg.png"></a>
+	
+		</div>
+	</div>
+	
+</section>
+
+
+<section id="footer">
+ 
+
+
+	<div class="caption5 text-center">
+    <p5> Website Created 12/21</p5>
+	<p><i class="fa fa-copyright"></i> Copyright 2021 Bryan White</p>
+    </div>
+		
+	
+</section>
+
+
+
+ 
+  </body>
+</html>
